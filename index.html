@@ -6,9 +6,18 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Clima de Tijuana</h1>
+        <h1 id="h1Text"></h1>
+        <br>
         <h3 id="clima_msg">0</h3>
         <h3 id="desc">0</h3>
+        <h3 id="humedad">0</h3>
+        <h3 id="tempMax">0</h3>
+        <h3 id="tempMin">0</h3>
+
+        <br><br>
+
+        <input type="text" id="cityText"></input>
+        <button id="btnEnter" onclick="carga_clima()">Enter</button>
 
         <script type="text/JavaScript" src="script.js"></script>
     </body>
